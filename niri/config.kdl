@@ -1,0 +1,17 @@
+include "cfg/animations.kdl"
+
+environment
+output "Virtual-1" {
+    mode "1920x1080@60.000"
+
+    scale 1.0
+
+    transform "normal"
+    position x=0 y=0
+}
+include "cfg/autostart.kdl"
+include "cfg/display.kdl"
+include "cfg/input.kdl"
+include "cfg/keybinds.kdl"
+include "cfg/misc.kdl"
+include "cfg/rules.kdl"
